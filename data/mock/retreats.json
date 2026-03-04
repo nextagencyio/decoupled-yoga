@@ -1,0 +1,144 @@
+{
+  "data": {
+    "nodeRetreats": {
+      "__typename": "NodeRetreatConnection",
+      "nodes": [
+        {
+          "__typename": "NodeRetreat",
+          "id": "retreat-bali",
+          "title": "Bali Wellness Retreat",
+          "path": "/retreats/bali-wellness-retreat",
+          "body": {
+            "processed": "<p>Immerse yourself in the magic of Bali on this transformative 7-day retreat. Daily yoga sessions at sunrise overlooking rice terraces, Balinese healing rituals, organic farm-to-table cuisine, and guided meditation in ancient temples.</p><h2>Included</h2><ul><li>Luxury villa accommodation with private pool</li><li>Daily morning and sunset yoga</li><li>Traditional Balinese spa treatments</li><li>Guided temple and nature excursions</li><li>All organic meals and fresh juices</li></ul>",
+            "summary": "Immerse yourself in the magic of Bali on this transformative 7-day retreat. Daily yoga sessions at sunrise overlooking rice terraces, Balinese healing rituals, organic farm-to-table cuisine, and guide"
+          },
+          "retreatDate": {
+            "timestamp": 1781499600
+          },
+          "endDate": {
+            "timestamp": 1782104400
+          },
+          "location": "Ubud, Bali, Indonesia",
+          "price": "$2,800",
+          "spotsAvailable": "12",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=800&q=80",
+            "alt": "Yoga retreat in Bali rice terraces",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeRetreat",
+          "id": "retreat-sedona",
+          "title": "Sedona Desert Renewal",
+          "path": "/retreats/sedona-desert-renewal",
+          "body": {
+            "processed": "<p>Reconnect with yourself among the red rocks of Sedona on this intimate 4-day weekend retreat. Experience the healing energy of vortex sites, desert hikes, sound healing, and deep restorative practices.</p><h2>Highlights</h2><ul><li>Outdoor yoga at Cathedral Rock</li><li>Sound bath and crystal healing session</li><li>Guided vortex meditation hike</li><li>Journaling and intention-setting workshops</li><li>Farm-to-table meals at the retreat center</li></ul>",
+            "summary": "Reconnect with yourself among the red rocks of Sedona on this intimate 4-day weekend retreat. Experience the healing energy of vortex sites, desert hikes, sound healing, and deep restorative practices"
+          },
+          "retreatDate": {
+            "timestamp": 1789016400
+          },
+          "endDate": {
+            "timestamp": 1789362000
+          },
+          "location": "Sedona, Arizona",
+          "price": "$1,500",
+          "spotsAvailable": "16",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
+            "alt": "Desert yoga at sunrise",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeRetreat",
+          "id": "retreat-local",
+          "title": "Weekend Reset",
+          "path": "/retreats/weekend-reset",
+          "body": {
+            "processed": "<p>No travel required for this local day retreat right at our studio. Unplug from the world for a full day of yoga, meditation, journaling, and nourishing food. The perfect reset for busy professionals.</p><h2>Schedule</h2><ul><li>8:00 AM - Gentle morning flow</li><li>10:00 AM - Guided meditation and breathwork</li><li>12:00 PM - Healthy lunch and mindful eating</li><li>1:30 PM - Restorative yoga and yoga nidra</li><li>3:30 PM - Closing circle and tea ceremony</li></ul>",
+            "summary": "No travel required for this local day retreat right at our studio. Unplug from the world for a full day of yoga, meditation, journaling, and nourishing food. The perfect reset for busy professionals.S"
+          },
+          "retreatDate": {
+            "timestamp": 1776603600
+          },
+          "endDate": {
+            "timestamp": 1776632400
+          },
+          "location": "Serenity Yoga Studio",
+          "price": "$175",
+          "spotsAvailable": "20",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80",
+            "alt": "Group yoga session in studio",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

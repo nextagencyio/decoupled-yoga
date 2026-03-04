@@ -1,0 +1,129 @@
+{
+  "data": {
+    "nodeInstructors": {
+      "__typename": "NodeInstructorConnection",
+      "nodes": [
+        {
+          "__typename": "NodeInstructor",
+          "id": "instructor-maya",
+          "title": "Maya Patel",
+          "path": "/instructors/maya-patel",
+          "body": {
+            "processed": "<p>Maya discovered yoga during a transformative trip to India over 15 years ago and has dedicated her life to sharing its gifts. Her Vinyasa classes are known for creative sequencing, thoughtful theming, and a warmth that makes every student feel welcome.</p><p>She completed her 500-hour teacher training at the Krishnamacharya Yoga Mandiram in Chennai and continues to study with master teachers annually.</p>",
+            "summary": "Maya discovered yoga during a transformative trip to India over 15 years ago and has dedicated her life to sharing its gifts. Her Vinyasa classes are known for creative sequencing, thoughtful theming,"
+          },
+          "specialty": "Vinyasa Flow & Meditation",
+          "email": "maya@serenityyoga.com",
+          "certifications": "E-RYT 500, YACEP",
+          "teachingSince": "2011",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Maya Patel, yoga instructor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeInstructor",
+          "id": "instructor-elena",
+          "title": "Elena Vasquez",
+          "path": "/instructors/elena-vasquez",
+          "body": {
+            "processed": "<p>Elena is a trauma-informed yoga therapist whose gentle, compassionate teaching style creates a safe space for healing. After overcoming her own health challenges through restorative yoga, she is passionate about making yoga accessible to everyone.</p><p>She holds certifications in yoga therapy and mindfulness-based stress reduction, bringing a holistic approach to every class.</p>",
+            "summary": "Elena is a trauma-informed yoga therapist whose gentle, compassionate teaching style creates a safe space for healing. After overcoming her own health challenges through restorative yoga, she is passi"
+          },
+          "specialty": "Restorative & Therapeutic Yoga",
+          "email": "elena@serenityyoga.com",
+          "certifications": "C-IAYT, RYT 500, MBSR Certified",
+          "teachingSince": "2014",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+            "alt": "Elena Vasquez, restorative yoga instructor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeInstructor",
+          "id": "instructor-james",
+          "title": "James Nakamura",
+          "path": "/instructors/james-nakamura",
+          "body": {
+            "processed": "<p>A former competitive swimmer turned yoga teacher, James brings an athletic perspective to the practice. His Power Yoga classes are challenging yet playful, encouraging students to explore their edge while respecting their bodies.</p><p>James is also certified in sports massage therapy and anatomy, which informs his precise alignment cues and hands-on adjustments.</p>",
+            "summary": "A former competitive swimmer turned yoga teacher, James brings an athletic perspective to the practice. His Power Yoga classes are challenging yet playful, encouraging students to explore their edge w"
+          },
+          "specialty": "Power Yoga & Arm Balances",
+          "email": "james@serenityyoga.com",
+          "certifications": "RYT 500, Certified Sports Massage Therapist",
+          "teachingSince": "2016",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "James Nakamura, power yoga instructor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

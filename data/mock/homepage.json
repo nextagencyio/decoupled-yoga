@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Serenity Yoga Studio",
+          "path": "/homepage",
+          "heroTitle": "Find Your Inner Peace",
+          "heroSubtitle": "Serenity Yoga & Wellness",
+          "heroDescription": {
+            "processed": "<p>A welcoming sanctuary for mind, body, and spirit. Whether you are a complete beginner or a seasoned practitioner, our experienced instructors guide you toward balance, strength, and tranquility.</p>",
+            "summary": "A welcoming sanctuary for mind, body, and spirit. Whether you are a complete beginner or a seasoned practitioner, our experienced instructors guide you toward balance, strength, and tranquility."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-students",
+              "title": "",
+              "number": "1,800+",
+              "label": "Active Students"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-classes",
+              "title": "",
+              "number": "40+",
+              "label": "Weekly Classes"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-instructors",
+              "title": "",
+              "number": "12",
+              "label": "Certified Instructors"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "10+",
+              "label": "Years of Practice"
+            }
+          ],
+          "featuredItemsTitle": "Featured Classes",
+          "ctaTitle": "Begin Your Journey",
+          "ctaDescription": {
+            "processed": "<p>Your first class is on us. Experience the Serenity difference with a complimentary introductory session.</p>",
+            "summary": "Your first class is on us. Experience the Serenity difference with a complimentary introductory session."
+          },
+          "ctaPrimary": "Book Free Class",
+          "ctaSecondary": "View Schedule"
+        }
+      ]
+    }
+  }
+}

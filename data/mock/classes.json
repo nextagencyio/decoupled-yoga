@@ -1,0 +1,129 @@
+{
+  "data": {
+    "nodeClasses": {
+      "__typename": "NodeClassConnection",
+      "nodes": [
+        {
+          "__typename": "NodeClass",
+          "id": "class-vinyasa",
+          "title": "Vinyasa Flow",
+          "path": "/classes/vinyasa-flow",
+          "body": {
+            "processed": "<p>A dynamic, breath-synchronized practice that links movement and breath to create a flowing sequence of poses. Each class builds heat, flexibility, and mental focus while cultivating a moving meditation.</p><h2>What to Expect</h2><p>Sun salutations, standing sequences, balances, and inversions woven together in a creative, ever-changing flow. Modifications offered for all levels.</p>",
+            "summary": "A dynamic, breath-synchronized practice that links movement and breath to create a flowing sequence of poses. Each class builds heat, flexibility, and mental focus while cultivating a moving meditatio"
+          },
+          "classLevel": "All Levels",
+          "duration": "60 minutes",
+          "schedule": "Mon/Wed/Fri 7:00 AM, Tue/Thu 6:00 PM",
+          "instructorName": "Maya Patel",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+            "alt": "Vinyasa yoga flow class",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeClass",
+          "id": "class-restorative",
+          "title": "Restorative Yoga",
+          "path": "/classes/restorative-yoga",
+          "body": {
+            "processed": "<p>A deeply relaxing practice using props to support the body in passive poses held for extended periods. This gentle approach activates the parasympathetic nervous system, promoting profound rest and healing.</p><h2>Perfect For</h2><p>Stress relief, recovery from injury, improving sleep quality, and anyone needing a pause from the pace of daily life. No flexibility required.</p>",
+            "summary": "A deeply relaxing practice using props to support the body in passive poses held for extended periods. This gentle approach activates the parasympathetic nervous system, promoting profound rest and he"
+          },
+          "classLevel": "Beginner",
+          "duration": "75 minutes",
+          "schedule": "Tue/Thu 10:00 AM, Sun 4:00 PM",
+          "instructorName": "Elena Vasquez",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80",
+            "alt": "Restorative yoga with props",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeClass",
+          "id": "class-power",
+          "title": "Power Yoga",
+          "path": "/classes/power-yoga",
+          "body": {
+            "processed": "<p>An athletic, strength-building practice inspired by Ashtanga yoga. This vigorous class challenges your body with arm balances, deep twists, and core-intensive sequences that build both physical and mental endurance.</p><h2>Intensity</h2><p>Expect to sweat. This class is designed for practitioners who want a workout that also deepens their yoga practice. Previous yoga experience recommended.</p>",
+            "summary": "An athletic, strength-building practice inspired by Ashtanga yoga. This vigorous class challenges your body with arm balances, deep twists, and core-intensive sequences that build both physical and me"
+          },
+          "classLevel": "Intermediate/Advanced",
+          "duration": "60 minutes",
+          "schedule": "Mon/Wed/Fri 12:00 PM, Sat 8:00 AM",
+          "instructorName": "James Nakamura",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&q=80",
+            "alt": "Power yoga class in progress",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

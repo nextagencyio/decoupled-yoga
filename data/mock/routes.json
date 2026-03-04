@@ -1,0 +1,531 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Serenity Yoga Studio",
+          "path": "/homepage",
+          "heroTitle": "Find Your Inner Peace",
+          "heroSubtitle": "Serenity Yoga & Wellness",
+          "heroDescription": {
+            "processed": "<p>A welcoming sanctuary for mind, body, and spirit. Whether you are a complete beginner or a seasoned practitioner, our experienced instructors guide you toward balance, strength, and tranquility.</p>",
+            "summary": "A welcoming sanctuary for mind, body, and spirit. Whether you are a complete beginner or a seasoned practitioner, our experienced instructors guide you toward balance, strength, and tranquility."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-students",
+              "title": "",
+              "number": "1,800+",
+              "label": "Active Students"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-classes",
+              "title": "",
+              "number": "40+",
+              "label": "Weekly Classes"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-instructors",
+              "title": "",
+              "number": "12",
+              "label": "Certified Instructors"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "10+",
+              "label": "Years of Practice"
+            }
+          ],
+          "featuredItemsTitle": "Featured Classes",
+          "ctaTitle": "Begin Your Journey",
+          "ctaDescription": {
+            "processed": "<p>Your first class is on us. Experience the Serenity difference with a complimentary introductory session.</p>",
+            "summary": "Your first class is on us. Experience the Serenity difference with a complimentary introductory session."
+          },
+          "ctaPrimary": "Book Free Class",
+          "ctaSecondary": "View Schedule"
+        }
+      }
+    }
+  },
+  "/classes/vinyasa-flow": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeClass",
+          "id": "class-vinyasa",
+          "title": "Vinyasa Flow",
+          "path": "/classes/vinyasa-flow",
+          "body": {
+            "processed": "<p>A dynamic, breath-synchronized practice that links movement and breath to create a flowing sequence of poses. Each class builds heat, flexibility, and mental focus while cultivating a moving meditation.</p><h2>What to Expect</h2><p>Sun salutations, standing sequences, balances, and inversions woven together in a creative, ever-changing flow. Modifications offered for all levels.</p>",
+            "summary": "A dynamic, breath-synchronized practice that links movement and breath to create a flowing sequence of poses. Each class builds heat, flexibility, and mental focus while cultivating a moving meditatio"
+          },
+          "classLevel": "All Levels",
+          "duration": "60 minutes",
+          "schedule": "Mon/Wed/Fri 7:00 AM, Tue/Thu 6:00 PM",
+          "instructorName": "Maya Patel",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+            "alt": "Vinyasa yoga flow class",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/classes/restorative-yoga": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeClass",
+          "id": "class-restorative",
+          "title": "Restorative Yoga",
+          "path": "/classes/restorative-yoga",
+          "body": {
+            "processed": "<p>A deeply relaxing practice using props to support the body in passive poses held for extended periods. This gentle approach activates the parasympathetic nervous system, promoting profound rest and healing.</p><h2>Perfect For</h2><p>Stress relief, recovery from injury, improving sleep quality, and anyone needing a pause from the pace of daily life. No flexibility required.</p>",
+            "summary": "A deeply relaxing practice using props to support the body in passive poses held for extended periods. This gentle approach activates the parasympathetic nervous system, promoting profound rest and he"
+          },
+          "classLevel": "Beginner",
+          "duration": "75 minutes",
+          "schedule": "Tue/Thu 10:00 AM, Sun 4:00 PM",
+          "instructorName": "Elena Vasquez",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80",
+            "alt": "Restorative yoga with props",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/classes/power-yoga": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeClass",
+          "id": "class-power",
+          "title": "Power Yoga",
+          "path": "/classes/power-yoga",
+          "body": {
+            "processed": "<p>An athletic, strength-building practice inspired by Ashtanga yoga. This vigorous class challenges your body with arm balances, deep twists, and core-intensive sequences that build both physical and mental endurance.</p><h2>Intensity</h2><p>Expect to sweat. This class is designed for practitioners who want a workout that also deepens their yoga practice. Previous yoga experience recommended.</p>",
+            "summary": "An athletic, strength-building practice inspired by Ashtanga yoga. This vigorous class challenges your body with arm balances, deep twists, and core-intensive sequences that build both physical and me"
+          },
+          "classLevel": "Intermediate/Advanced",
+          "duration": "60 minutes",
+          "schedule": "Mon/Wed/Fri 12:00 PM, Sat 8:00 AM",
+          "instructorName": "James Nakamura",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&q=80",
+            "alt": "Power yoga class in progress",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/instructors/maya-patel": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeInstructor",
+          "id": "instructor-maya",
+          "title": "Maya Patel",
+          "path": "/instructors/maya-patel",
+          "body": {
+            "processed": "<p>Maya discovered yoga during a transformative trip to India over 15 years ago and has dedicated her life to sharing its gifts. Her Vinyasa classes are known for creative sequencing, thoughtful theming, and a warmth that makes every student feel welcome.</p><p>She completed her 500-hour teacher training at the Krishnamacharya Yoga Mandiram in Chennai and continues to study with master teachers annually.</p>",
+            "summary": "Maya discovered yoga during a transformative trip to India over 15 years ago and has dedicated her life to sharing its gifts. Her Vinyasa classes are known for creative sequencing, thoughtful theming,"
+          },
+          "specialty": "Vinyasa Flow & Meditation",
+          "email": "maya@serenityyoga.com",
+          "certifications": "E-RYT 500, YACEP",
+          "teachingSince": "2011",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Maya Patel, yoga instructor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/instructors/elena-vasquez": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeInstructor",
+          "id": "instructor-elena",
+          "title": "Elena Vasquez",
+          "path": "/instructors/elena-vasquez",
+          "body": {
+            "processed": "<p>Elena is a trauma-informed yoga therapist whose gentle, compassionate teaching style creates a safe space for healing. After overcoming her own health challenges through restorative yoga, she is passionate about making yoga accessible to everyone.</p><p>She holds certifications in yoga therapy and mindfulness-based stress reduction, bringing a holistic approach to every class.</p>",
+            "summary": "Elena is a trauma-informed yoga therapist whose gentle, compassionate teaching style creates a safe space for healing. After overcoming her own health challenges through restorative yoga, she is passi"
+          },
+          "specialty": "Restorative & Therapeutic Yoga",
+          "email": "elena@serenityyoga.com",
+          "certifications": "C-IAYT, RYT 500, MBSR Certified",
+          "teachingSince": "2014",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+            "alt": "Elena Vasquez, restorative yoga instructor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/instructors/james-nakamura": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeInstructor",
+          "id": "instructor-james",
+          "title": "James Nakamura",
+          "path": "/instructors/james-nakamura",
+          "body": {
+            "processed": "<p>A former competitive swimmer turned yoga teacher, James brings an athletic perspective to the practice. His Power Yoga classes are challenging yet playful, encouraging students to explore their edge while respecting their bodies.</p><p>James is also certified in sports massage therapy and anatomy, which informs his precise alignment cues and hands-on adjustments.</p>",
+            "summary": "A former competitive swimmer turned yoga teacher, James brings an athletic perspective to the practice. His Power Yoga classes are challenging yet playful, encouraging students to explore their edge w"
+          },
+          "specialty": "Power Yoga & Arm Balances",
+          "email": "james@serenityyoga.com",
+          "certifications": "RYT 500, Certified Sports Massage Therapist",
+          "teachingSince": "2016",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "James Nakamura, power yoga instructor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/retreats/bali-wellness-retreat": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeRetreat",
+          "id": "retreat-bali",
+          "title": "Bali Wellness Retreat",
+          "path": "/retreats/bali-wellness-retreat",
+          "body": {
+            "processed": "<p>Immerse yourself in the magic of Bali on this transformative 7-day retreat. Daily yoga sessions at sunrise overlooking rice terraces, Balinese healing rituals, organic farm-to-table cuisine, and guided meditation in ancient temples.</p><h2>Included</h2><ul><li>Luxury villa accommodation with private pool</li><li>Daily morning and sunset yoga</li><li>Traditional Balinese spa treatments</li><li>Guided temple and nature excursions</li><li>All organic meals and fresh juices</li></ul>",
+            "summary": "Immerse yourself in the magic of Bali on this transformative 7-day retreat. Daily yoga sessions at sunrise overlooking rice terraces, Balinese healing rituals, organic farm-to-table cuisine, and guide"
+          },
+          "retreatDate": {
+            "timestamp": 1781499600
+          },
+          "endDate": {
+            "timestamp": 1782104400
+          },
+          "location": "Ubud, Bali, Indonesia",
+          "price": "$2,800",
+          "spotsAvailable": "12",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=800&q=80",
+            "alt": "Yoga retreat in Bali rice terraces",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/retreats/sedona-desert-renewal": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeRetreat",
+          "id": "retreat-sedona",
+          "title": "Sedona Desert Renewal",
+          "path": "/retreats/sedona-desert-renewal",
+          "body": {
+            "processed": "<p>Reconnect with yourself among the red rocks of Sedona on this intimate 4-day weekend retreat. Experience the healing energy of vortex sites, desert hikes, sound healing, and deep restorative practices.</p><h2>Highlights</h2><ul><li>Outdoor yoga at Cathedral Rock</li><li>Sound bath and crystal healing session</li><li>Guided vortex meditation hike</li><li>Journaling and intention-setting workshops</li><li>Farm-to-table meals at the retreat center</li></ul>",
+            "summary": "Reconnect with yourself among the red rocks of Sedona on this intimate 4-day weekend retreat. Experience the healing energy of vortex sites, desert hikes, sound healing, and deep restorative practices"
+          },
+          "retreatDate": {
+            "timestamp": 1789016400
+          },
+          "endDate": {
+            "timestamp": 1789362000
+          },
+          "location": "Sedona, Arizona",
+          "price": "$1,500",
+          "spotsAvailable": "16",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
+            "alt": "Desert yoga at sunrise",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/retreats/weekend-reset": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeRetreat",
+          "id": "retreat-local",
+          "title": "Weekend Reset",
+          "path": "/retreats/weekend-reset",
+          "body": {
+            "processed": "<p>No travel required for this local day retreat right at our studio. Unplug from the world for a full day of yoga, meditation, journaling, and nourishing food. The perfect reset for busy professionals.</p><h2>Schedule</h2><ul><li>8:00 AM - Gentle morning flow</li><li>10:00 AM - Guided meditation and breathwork</li><li>12:00 PM - Healthy lunch and mindful eating</li><li>1:30 PM - Restorative yoga and yoga nidra</li><li>3:30 PM - Closing circle and tea ceremony</li></ul>",
+            "summary": "No travel required for this local day retreat right at our studio. Unplug from the world for a full day of yoga, meditation, journaling, and nourishing food. The perfect reset for busy professionals.S"
+          },
+          "retreatDate": {
+            "timestamp": 1776603600
+          },
+          "endDate": {
+            "timestamp": 1776632400
+          },
+          "location": "Serenity Yoga Studio",
+          "price": "$175",
+          "spotsAvailable": "20",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80",
+            "alt": "Group yoga session in studio",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Serenity Yoga Studio",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Serenity Yoga Studio was founded in 2015 with a vision to create a welcoming space where people of all backgrounds and abilities can experience the transformative power of yoga.</p><h2>Our Philosophy</h2><p>We believe yoga is for every body. Our classes honor the ancient traditions of yoga while embracing modern understanding of anatomy and wellness. Whether you seek physical fitness, stress relief, or spiritual growth, you will find your path here.</p><h2>Our Space</h2><p>Our 3,000 square foot studio features heated and non-heated rooms, bamboo flooring, natural lighting, and a boutique offering eco-friendly yoga essentials. We provide complimentary mats, props, and filtered water for all students.</p>",
+            "summary": "Serenity Yoga Studio was founded in 2015 with a vision to create a welcoming space where people of all backgrounds and abilities can experience the transformative power of yoga.Our PhilosophyWe believ"
+          }
+        }
+      }
+    }
+  },
+  "/new-students": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-new-students",
+          "title": "New Student Guide",
+          "path": "/new-students",
+          "body": {
+            "processed": "<h2>Welcome to Serenity</h2><p>We are thrilled to have you join our community. Here is everything you need to know for your first visit.</p><h2>What to Bring</h2><p>Just yourself! We provide mats, blocks, straps, and blankets. Wear comfortable, breathable clothing that allows you to move freely.</p><h2>Arrive Early</h2><p>Please arrive 10-15 minutes before your first class to complete a brief intake form and get oriented to the studio.</p><h2>Class Recommendations</h2><p>We suggest starting with our Vinyasa Flow (All Levels) or Restorative Yoga class. Both are beginner-friendly and offer a wonderful introduction to the practice.</p><h2>Introductory Offer</h2><p>New students receive their first class free, plus 30% off their first month of unlimited classes.</p>",
+            "summary": "Welcome to SerenityWe are thrilled to have you join our community. Here is everything you need to know for your first visit.What to BringJust yourself! We provide mats, blocks, straps, and blankets. W"
+          }
+        }
+      }
+    }
+  }
+}

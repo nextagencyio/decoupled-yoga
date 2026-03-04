@@ -1,0 +1,439 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Landing page",
+      "fields": [
+        {
+          "id": "hero_title",
+          "label": "Hero Title",
+          "type": "string"
+        },
+        {
+          "id": "hero_subtitle",
+          "label": "Hero Subtitle",
+          "type": "string"
+        },
+        {
+          "id": "hero_description",
+          "label": "Hero Description",
+          "type": "text"
+        },
+        {
+          "id": "features_items",
+          "label": "Feature Items",
+          "type": "paragraph(feature_item)[]"
+        },
+        {
+          "id": "cta_title",
+          "label": "CTA Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_description",
+          "label": "CTA Description",
+          "type": "text"
+        },
+        {
+          "id": "cta_primary",
+          "label": "CTA Primary",
+          "type": "string"
+        },
+        {
+          "id": "cta_secondary",
+          "label": "CTA Secondary",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "bundle": "class",
+      "label": "Class",
+      "description": "Yoga class",
+      "body": true,
+      "fields": [
+        {
+          "id": "class_level",
+          "label": "Class Level",
+          "type": "string"
+        },
+        {
+          "id": "duration",
+          "label": "Duration",
+          "type": "string"
+        },
+        {
+          "id": "schedule",
+          "label": "Schedule",
+          "type": "string"
+        },
+        {
+          "id": "image",
+          "label": "Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "instructor",
+      "label": "Instructor",
+      "description": "Yoga instructor",
+      "body": true,
+      "fields": [
+        {
+          "id": "specialty",
+          "label": "Specialty",
+          "type": "string"
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "type": "string"
+        },
+        {
+          "id": "photo",
+          "label": "Photo",
+          "type": "image"
+        },
+        {
+          "id": "certifications",
+          "label": "Certifications",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "bundle": "retreat",
+      "label": "Retreat",
+      "description": "Yoga retreat",
+      "body": true,
+      "fields": [
+        {
+          "id": "retreat_date",
+          "label": "Start Date",
+          "type": "datetime"
+        },
+        {
+          "id": "end_date",
+          "label": "End Date",
+          "type": "datetime"
+        },
+        {
+          "id": "location",
+          "label": "Location",
+          "type": "string"
+        },
+        {
+          "id": "price",
+          "label": "Price",
+          "type": "string"
+        },
+        {
+          "id": "image",
+          "label": "Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static page",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "feature_item",
+      "label": "Feature Item",
+      "fields": [
+        {
+          "id": "icon",
+          "label": "Icon",
+          "type": "string"
+        },
+        {
+          "id": "title",
+          "label": "Title",
+          "type": "string!"
+        },
+        {
+          "id": "description",
+          "label": "Description",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "f1",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "leaf",
+        "title": "Mindful Practice",
+        "description": "Classes rooted in ancient traditions, adapted for modern life with emphasis on breath and presence."
+      }
+    },
+    {
+      "id": "f2",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "heart",
+        "title": "Holistic Wellness",
+        "description": "Beyond asana: meditation, pranayama, and lifestyle guidance for total well-being."
+      }
+    },
+    {
+      "id": "f3",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "users",
+        "title": "Expert Instructors",
+        "description": "Certified teachers with 500+ hours of training and years of dedicated practice."
+      }
+    },
+    {
+      "id": "f4",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "sun",
+        "title": "Beautiful Studio",
+        "description": "Naturally lit, heated studio spaces designed to nurture your practice."
+      }
+    },
+    {
+      "id": "f5",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "globe",
+        "title": "Retreat Experiences",
+        "description": "Transformative retreats in stunning locations around the world."
+      }
+    },
+    {
+      "id": "f6",
+      "type": "paragraph.feature_item",
+      "values": {
+        "icon": "sparkles",
+        "title": "All Levels Welcome",
+        "description": "From first-timers to advanced practitioners, every class meets you where you are."
+      }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Serene Flow Yoga",
+        "hero_title": "Find Your Flow",
+        "hero_subtitle": "Serene Flow Yoga",
+        "hero_description": "<p>A welcoming studio dedicated to mindful movement, deep breathing, and inner peace for every body and every level.</p>",
+        "features_items": [
+          "@f1",
+          "@f2",
+          "@f3",
+          "@f4",
+          "@f5",
+          "@f6"
+        ],
+        "cta_title": "Begin Your Yoga Journey",
+        "cta_description": "<p>Your first class is free. Experience the transformative power of yoga in a supportive, inclusive space.</p>",
+        "cta_primary": "Book a Class",
+        "cta_secondary": "View Schedule"
+      }
+    },
+    {
+      "id": "class-vinyasa",
+      "type": "node.class",
+      "path": "/classes/vinyasa-flow",
+      "values": {
+        "title": "Vinyasa Flow",
+        "body": "<p>A dynamic, breath-synchronized practice linking poses in a flowing sequence. Builds strength, flexibility, and focus.</p><h2>Class Highlights</h2><p>Creative sequencing with options for all levels. Expect sun salutations, standing poses, inversions, and a long savasana.</p>",
+        "class_level": "All Levels",
+        "duration": "60 minutes",
+        "schedule": "Mon-Fri 7:00 AM & 6:00 PM, Sat 9:00 AM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80",
+          "alt": "Vinyasa flow class",
+          "title": "Vinyasa Flow"
+        }
+      }
+    },
+    {
+      "id": "class-yin",
+      "type": "node.class",
+      "path": "/classes/yin-yoga",
+      "values": {
+        "title": "Yin Yoga",
+        "body": "<p>A slow, meditative practice holding poses for 3-5 minutes to target deep connective tissues. Perfect complement to active practices.</p><h2>Benefits</h2><p>Increases flexibility, releases fascia, calms the nervous system, and cultivates patience and stillness.</p>",
+        "class_level": "Beginner",
+        "duration": "75 minutes",
+        "schedule": "Tue/Thu 12:00 PM, Sun 4:00 PM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&q=80",
+          "alt": "Yin yoga practice",
+          "title": "Yin Yoga"
+        }
+      }
+    },
+    {
+      "id": "class-power",
+      "type": "node.class",
+      "path": "/classes/power-yoga",
+      "values": {
+        "title": "Power Yoga",
+        "body": "<p>An athletic, strength-building practice inspired by Ashtanga. Vigorous flows that challenge your body and sharpen your mind.</p><h2>What to Expect</h2><p>Core work, arm balances, and challenging transitions in a heated room. Bring water and a towel.</p>",
+        "class_level": "Intermediate",
+        "duration": "60 minutes",
+        "schedule": "Mon/Wed/Fri 5:30 PM, Sat 10:30 AM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1588286840104-8957b019727f?w=800&q=80",
+          "alt": "Power yoga class",
+          "title": "Power Yoga"
+        }
+      }
+    },
+    {
+      "id": "class-restore",
+      "type": "node.class",
+      "path": "/classes/restorative-yoga",
+      "values": {
+        "title": "Restorative Yoga",
+        "body": "<p>Deeply relaxing practice using props to support the body in gentle poses held for extended periods. Activates the parasympathetic nervous system.</p><h2>Perfect For</h2><p>Stress relief, recovery from illness or injury, and anyone seeking deep rest and renewal.</p>",
+        "class_level": "Beginner",
+        "duration": "75 minutes",
+        "schedule": "Wed 12:00 PM, Fri 7:00 PM, Sun 5:00 PM",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=800&q=80",
+          "alt": "Restorative yoga",
+          "title": "Restorative Yoga"
+        }
+      }
+    },
+    {
+      "id": "instr-maya",
+      "type": "node.instructor",
+      "path": "/instructors/maya-patel",
+      "values": {
+        "title": "Maya Patel",
+        "body": "<p>Maya has been practicing yoga for over 15 years and teaching for 10. She trained in Rishikesh, India, and weaves philosophy, breathwork, and mindful movement into every class.</p>",
+        "specialty": "Vinyasa & Meditation",
+        "email": "maya@sereneflow.com",
+        "certifications": "E-RYT 500, YACEP",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=800&q=80",
+          "alt": "Maya Patel",
+          "title": "Maya Patel"
+        }
+      }
+    },
+    {
+      "id": "instr-james",
+      "type": "node.instructor",
+      "path": "/instructors/james-wu",
+      "values": {
+        "title": "James Wu",
+        "body": "<p>James brings a background in physical therapy to his teaching. His classes emphasize alignment, injury prevention, and accessible modifications for all bodies.</p>",
+        "specialty": "Yin & Restorative",
+        "email": "james@sereneflow.com",
+        "certifications": "RYT 500, DPT",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=800&q=80",
+          "alt": "James Wu",
+          "title": "James Wu"
+        }
+      }
+    },
+    {
+      "id": "instr-elena",
+      "type": "node.instructor",
+      "path": "/instructors/elena-rossi",
+      "values": {
+        "title": "Elena Rossi",
+        "body": "<p>Elena is a dynamic power yoga teacher who blends Ashtanga tradition with creative sequencing. Her classes are challenging, playful, and deeply empowering.</p>",
+        "specialty": "Power Yoga & Arm Balances",
+        "email": "elena@sereneflow.com",
+        "certifications": "E-RYT 200, Ashtanga Authorized",
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=800&q=80",
+          "alt": "Elena Rossi",
+          "title": "Elena Rossi"
+        }
+      }
+    },
+    {
+      "id": "retreat-bali",
+      "type": "node.retreat",
+      "path": "/retreats/bali-bliss",
+      "values": {
+        "title": "Bali Bliss Retreat",
+        "body": "<p>Immerse yourself in 7 days of yoga, meditation, and Balinese culture. Practice twice daily in an open-air shala overlooking rice terraces.</p><h2>Includes</h2><ul><li>14 yoga sessions</li><li>Daily meditation</li><li>Organic meals</li><li>Temple visit and cultural excursions</li><li>Luxury villa accommodation</li></ul>",
+        "retreat_date": "2026-06-15T00:00:00",
+        "end_date": "2026-06-22T00:00:00",
+        "location": "Ubud, Bali",
+        "price": "$2,800",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=800&q=80",
+          "alt": "Bali retreat",
+          "title": "Bali Bliss"
+        }
+      }
+    },
+    {
+      "id": "retreat-sedona",
+      "type": "node.retreat",
+      "path": "/retreats/sedona-soul",
+      "values": {
+        "title": "Sedona Soul Retreat",
+        "body": "<p>A transformative weekend in Arizona's red rock country. Combine yoga, hiking, and energy work in one of the world's most powerful landscapes.</p><h2>Includes</h2><ul><li>6 yoga sessions</li><li>2 guided hikes</li><li>Sound healing ceremony</li><li>Farm-to-table meals</li></ul>",
+        "retreat_date": "2026-09-12T00:00:00",
+        "end_date": "2026-09-14T00:00:00",
+        "location": "Sedona, Arizona",
+        "price": "$1,200",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800&q=80",
+          "alt": "Sedona retreat",
+          "title": "Sedona Soul"
+        }
+      }
+    },
+    {
+      "id": "retreat-costa",
+      "type": "node.retreat",
+      "path": "/retreats/costa-rica-renewal",
+      "values": {
+        "title": "Costa Rica Renewal",
+        "body": "<p>10 days of deep practice in the Costa Rican rainforest. Morning vinyasa, afternoon yin, evening meditation, and surf lessons available.</p><h2>Includes</h2><ul><li>20 yoga sessions</li><li>Rainforest excursions</li><li>Surf lessons</li><li>Organic meals</li><li>Beachfront bungalow</li></ul>",
+        "retreat_date": "2026-11-01T00:00:00",
+        "end_date": "2026-11-10T00:00:00",
+        "location": "Nosara, Costa Rica",
+        "price": "$3,500",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+          "alt": "Costa Rica retreat",
+          "title": "Costa Rica Renewal"
+        }
+      }
+    },
+    {
+      "id": "about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Serene Flow Yoga",
+        "body": "<p>Serene Flow Yoga was founded in 2018 with a vision of creating an inclusive, welcoming space where the ancient practice of yoga could meet modern life.</p><h2>Our Philosophy</h2><p>We believe yoga is for every body. Our classes honor tradition while embracing innovation, making the practice accessible and relevant.</p><h2>Our Space</h2><p>Our studio features naturally lit practice rooms, a meditation garden, and a boutique carrying sustainable yoga gear and wellness products.</p>"
+      }
+    },
+    {
+      "id": "faq",
+      "type": "node.page",
+      "path": "/faq",
+      "values": {
+        "title": "FAQ",
+        "body": "<h2>I've never done yoga. Where do I start?</h2><p>Our Beginner Vinyasa and Restorative classes are perfect starting points. No experience needed.</p><h2>What should I wear?</h2><p>Comfortable clothing you can move freely in. We practice barefoot.</p><h2>Do I need my own mat?</h2><p>We have mats, blocks, straps, and blankets available. Feel free to bring your own.</p><h2>Can I drop in or do I need a membership?</h2><p>Both! Drop-in classes are $22, or choose from our monthly membership plans.</p>"
+      }
+    }
+  ]
+}
