@@ -41,7 +41,7 @@ export default function StatsSection({ homepageContent }: StatsSectionProps) {
                 <div className="w-14 h-14 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-5">
                   <IconComponent className="w-7 h-7 text-primary-700" />
                 </div>
-                <div className="text-3xl md:text-4xl font-bold text-primary-800 font-display mb-2">{stat.value || stat.statValue || stat.title}</div>
+                <div className="text-3xl md:text-4xl font-bold text-primary-800 font-display mb-2">{stat.value || stat.number || stat.statValue || stat.title}</div>
                 <div className="text-gray-600 font-medium">{stat.label || stat.statLabel || stat.title}</div>
               </div>
             )
