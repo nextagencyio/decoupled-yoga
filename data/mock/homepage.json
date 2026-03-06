@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-students",
               "title": "",
-              "number": "1,800+",
+              "number": "1,800+", "value": "1,800+",
               "label": "Active Students"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-classes",
               "title": "",
-              "number": "40+",
+              "number": "40+", "value": "40+",
               "label": "Weekly Classes"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-instructors",
               "title": "",
-              "number": "12",
+              "number": "12", "value": "12",
               "label": "Certified Instructors"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-years",
               "title": "",
-              "number": "10+",
+              "number": "10+", "value": "10+",
               "label": "Years of Practice"
             }
           ],
