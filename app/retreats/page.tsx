@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import RetreatCard from '../components/RetreatCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Retreats | Serenity Yoga Studio',
