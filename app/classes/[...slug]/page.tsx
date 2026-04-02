@@ -24,7 +24,7 @@ interface ClassByPathData {
 async function getClass(path: string): Promise<DrupalClass | null> {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_CLASS_BY_PATH, { path })
+    const data = await client.raw(GET_CLASS_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching class:', error)
