@@ -82,11 +82,17 @@ export const GET_HOMEPAGE_DATA = gql`
         path
         heroTitle
         heroSubtitle
-        heroDescription { processed summary }
-        statsItems { ... on ParagraphStatItem { id title description { processed } icon } }
-        featuredItemsTitle
+        heroDescription { processed }
+        featuresItems {
+          ... on ParagraphFeatureItem {
+            id
+            title
+            description { processed }
+            icon
+          }
+        }
         ctaTitle
-        ctaDescription { processed summary }
+        ctaDescription { processed }
         ctaPrimary
         ctaSecondary
       }
@@ -106,31 +112,6 @@ export const GET_NODE_BY_PATH = gql`
               processed
             }
           }
-          ... on NodeArticle {
-            id
-            title
-            body {
-              processed
-            }
-            created {
-              timestamp
-            }
-            changed {
-              timestamp
-            }
-            image {
-              url
-              alt
-              width
-              height
-              variations(styles: [LARGE, MEDIUM, THUMBNAIL]) {
-                name
-                url
-                width
-                height
-              }
-            }
-          }
           ... on NodeHomepage {
             id
             title
@@ -139,8 +120,6 @@ export const GET_NODE_BY_PATH = gql`
             heroDescription {
               processed
             }
-            featuresTitle
-            featuresSubtitle
             featuresItems {
               ... on ParagraphFeatureItem {
                 id
@@ -177,7 +156,6 @@ export const GET_CLASSES = gql`
           classLevel
           duration
           schedule
-          instructorName
           image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
         }
       }
@@ -194,12 +172,11 @@ export const GET_CLASS_BY_PATH = gql`
             id
             title
             path
-          body { processed summary }
-          classLevel
-          duration
-          schedule
-          instructorName
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            body { processed summary }
+            classLevel
+            duration
+            schedule
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }
@@ -220,7 +197,6 @@ export const GET_INSTRUCTORS = gql`
           specialty
           email
           certifications
-          teachingSince
           photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
         }
       }
@@ -237,12 +213,11 @@ export const GET_INSTRUCTOR_BY_PATH = gql`
             id
             title
             path
-          body { processed summary }
-          specialty
-          email
-          certifications
-          teachingSince
-          photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            body { processed summary }
+            specialty
+            email
+            certifications
+            photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }
@@ -264,7 +239,6 @@ export const GET_RETREATS = gql`
           endDate { timestamp }
           location
           price
-          spotsAvailable
           image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
         }
       }
@@ -281,13 +255,12 @@ export const GET_RETREAT_BY_PATH = gql`
             id
             title
             path
-          body { processed summary }
-          retreatDate { timestamp }
-          endDate { timestamp }
-          location
-          price
-          spotsAvailable
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            body { processed summary }
+            retreatDate { timestamp }
+            endDate { timestamp }
+            location
+            price
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }

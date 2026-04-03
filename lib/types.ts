@@ -63,8 +63,6 @@ export interface DrupalHomepage extends DrupalNode {
   heroDescription?: {
     processed: string
   }
-  featuresTitle?: string
-  featuresSubtitle?: string
   featuresItems?: DrupalFeature[]
   ctaTitle?: string
   ctaDescription?: {
@@ -99,7 +97,6 @@ export interface DrupalClass {
   classLevel?: string
   duration?: string
   schedule?: string
-  instructorName?: string
   image?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
 }
 
@@ -117,7 +114,6 @@ export interface DrupalInstructor {
   specialty?: string
   email?: string
   certifications?: string
-  teachingSince?: string
   photo?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
 }
 
@@ -136,7 +132,6 @@ export interface DrupalRetreat {
   endDate?: { timestamp: string }
   location?: string
   price?: string
-  spotsAvailable?: string
   image?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
 }
 
